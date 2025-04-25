@@ -1,0 +1,303 @@
+/* Main Container */
+.LPost-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.LPost-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.LPost-header h2 {
+  color: #0052cc;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.LPost-header p {
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+/* Form Styles */
+.LPost-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.LPost-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.LPost-form-group label {
+  font-size: 0.9rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+.LPost-form-input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.LPost-form-input:focus {
+  outline: none;
+  border-color: #0052cc;
+  box-shadow: 0 0 0 3px rgba(0, 33, 71, 0.1);
+}
+
+.LPost-form-textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  resize: vertical;
+  transition: all 0.3s ease;
+}
+
+.LPost-form-textarea:focus {
+  outline: none;
+  border-color: #0052cc;
+  box-shadow: 0 0 0 3px rgba(0, 33, 71, 0.1);
+}
+
+/* Button Styles */
+.LPost-submit-btn {
+  background-color: #0052cc;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  align-self: flex-end;
+}
+
+.LPost-submit-btn:hover {
+  background-color: #003366;
+  transform: translateY(-2px);
+}
+
+.LPost-submit-btn:active {
+  transform: translateY(0);
+}
+/* Main Container */
+.LPost-container_new {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.LPost-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.LPost-header h1 {
+  color: #0052cc;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.LPost-header p {
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+/* Posts Grid */
+.LPost-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Post Card */
+.LPost-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+/* Card Header */
+.LPost-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.LPost-add-btn {
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 0;
+  font-weight: 500;
+  font-size: 16px;
+  width: 150px;
+}
+.LPost-delete-btn {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  font-size: 15px;
+  width: 30px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.LPost-user-info {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.skil_card_dis {
+  width: 100%;
+  background-color: #f6f5f5;
+  color: #0052cc;
+  border-radius: 2px;
+  padding: 8px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.progress-date {
+  color: #6b7280;
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin-top: 3px;
+  font-style: italic;
+}
+.LPost-user-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #0052cc;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LPost-user-name {
+  font-weight: 600;
+  color: #000000;
+}
+
+.LPost-date {
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+/* Card Body */
+.LPost-card-body {
+  padding: 1.5rem;
+}
+
+.LPost-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0052cc;
+  margin-bottom: 1rem;
+}
+
+.LPost-content-label {
+  font-weight: 600;
+  color: #374151;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+.LPost-content-flow {
+  width: 100%;
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+  padding-top: 10px;
+}
+.LPost-content-flow-from {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  width: 100%;
+  padding-top: 10px;
+}
+.LPost-content-text {
+  color: #022547;
+  background-color: #133d9035;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #022547;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+.LPost-arrow{
+  font-size: 38px;
+  color: #0052cc;
+}
+
+/* Empty State */
+.LPost-empty-state {
+  text-align: center;
+  padding: 3rem;
+  color: #6b7280;
+  grid-column: 1 / -1;
+}
+
+/* Edit Button */
+.LPost-edit-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #0052cc;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.LPost-edit-btn:hover {
+  background-color: rgba(0, 33, 71, 0.1);
+}
